@@ -1,3 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>UVMD - Book Cover</title>
+    <style>
+        body {
+            background-color: #041726;
+            color: #2EE7FE;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .cover-container {
+            margin: 40px auto;
+            padding: 30px;
+            width: 400px;
+            box-shadow: 0 4px 24px rgba(46,231,254,0.08);
+            background: #0b243c;
+            border-radius: 15px;
+        }
+        .cover-title {
+            color: #2EE7FE;
+            font-size: 48px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .subtitle, .author {
+            color: #2EE7FE;
+            font-size: 20px;
+        }
+        .white-text {
+            color: #fff;
+            font-size: 22px;
+            font-weight: bold;
+            margin: 16px 0;
+        }
+        .cube {
+            border: 2px solid #17f7d7;
+            border-radius: 8px;
+            margin: 22px auto;
+            width: 195px;
+            padding: 20px 0;
+            background: rgba(77,234,253,0.08);
+            color: #fff;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .crypto-list {
+            display: flex;
+            justify-content: space-between;
+            margin: 14px 80px;
+            color: #fff;
+            font-size: 19px;
+        }
+        .quote {
+            background: #0b243c;
+            color: #fff;
+            font-size: 18px;
+            border-radius: 8px;
+            margin: 18px auto;
+            padding: 7px 20px;
+            font-style: italic;
+            border: none;
+            display: inline-block;
+        }
+        .author {
+            font-size: 33px;
+            font-weight: bold;
+            margin-top: 28px;
+        }
+        .book-image {
+            box-shadow: 0px 0px 15px #2EE7FE;
+            border-radius: 15px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="cover-container">
+        <img src="1000067628.jpg" alt="Book Cover Image" width="330" class="book-image"/>
+        <div class="subtitle">8 Steps to 1 Million $</div>
+        <div class="cover-title">UVDM</div>
+        <div class="subtitle">ULTRASAFE VIRTUAL DIGITAL MACHINE</div>
+        <div class="white-text">"It's Just Math.."</div>
+        <div class="white-text">Creates 60k Annuity</div>
+        <div class="cube">XRP&nbsp;&nbsp;&nbsp;XLM</div>
+        <div class="crypto-list">
+            <span>FLR</span>
+            <span>SGB</span>
+        </div>
+        <div class="quote">Investing made easy by XRPeasy..</div>
+        <div class="author">RON LEWIS</div>
+    </div>
+</body>
+</html>
 # UVDM Demo Script: 8-Step Projection
 initial_xlm = 115735
 targets = [1, 2, 3, 4, 5, 6, 7, 8]
