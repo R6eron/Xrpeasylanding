@@ -99,5 +99,17 @@ Xrpeasy-landing page
             });
         });
     </script>
-</body>
+</body> <section id="automation">
+    <div class="container">
+        <h2>UVDM Automation: Scripts for the 8 Steps</h2>
+        <p>Reduce error with open-source code for Nexo trades, XLM alerts, and simulations. From the NexpertUVDM-Automation repo—customize for your $1M path.</p>
+        <ul>
+            <li><strong>xrpl_script.py</strong>: XRPL/Flare staking and minting.</li>
+            <li><strong>uvdm_steps.py</strong>: 8-step harvesting simulation (e.g., $60K/year projection).</li>
+            <li><strong>xlm_monitor.py</strong>: $1 triggers and dip alerts.</li>
+        </ul>
+        <a href="https://github.com/R6eron/NexpertUVDM-Automation" class="btn btn-secondary" target="_blank">Download Repo & Scripts</a>
+        <p>Start with `python xlm_monitor.py`. Join Nexpert Academy for API setup and grants.</p>
+    </div>
+</section>
 </html>initial landing page deploy 
