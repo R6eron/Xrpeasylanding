@@ -1,3 +1,12 @@
+# UVDM Demo Script: 8-Step Projection
+initial_xlm = 115735
+targets = [1, 2, 3, 4, 5, 6, 7, 8]
+retention = 50000  # Optimized retention
+for i, target in enumerate(targets):
+    harvest = (initial_xlm - retention) * 0.1 if i == 0 else initial_xlm * 0.1
+    print(f"At ${target}: Harvest {harvest:.0f} XLM = ${harvest * target:,.0f}")
+    initial_xlm = retention + (harvest * target * 0.5 / 0.31665)  # 50% reinvest at $0.31665
+print(f"Final XLM: {initial_xlm:.0f}, Value at $8: ${initial_xlm * 8:,.2f}")
 # Xrpeasylanding
 Xrpeasy-landing page
 
